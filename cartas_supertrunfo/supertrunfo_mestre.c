@@ -115,14 +115,14 @@ int main() {
     printf(" COMPARAÇÃO DAS CARTAS\n");
     printf("=========================\n");
     
-    char vencedor[20] = "";  // Inicializa como string vazia
+    char vencedor[20] = "";  
 
     if (populacao1 > populacao2) {
-        strcpy(vencedor, "Carta 1");
+        (vencedor, "Carta 1");
     } else if (populacao2 > populacao1) {
-        strcpy(vencedor, "Carta 2");
+        (vencedor, "Carta 2");
     } else {
-        strcpy(vencedor, "Empate");
+        (vencedor, "Empate");
     }
     
     printf("População: %s venceu\n", vencedor);
